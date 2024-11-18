@@ -3,34 +3,52 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CyberForum - Kayıt Ol</title>
+    <title>CyberForum - Gönderi Ekle</title>
     <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="stylesheet" href="./styles/navbar.css" />
-    <link rel="stylesheet" href="./styles/footer.css" />
-    <link rel="stylesheet" href="./styles/register.css" />
+    <link rel="stylesheet" href="./styles/add-post.css" />
   </head>
   <body>
-    <nav>
-      <div class="logo">CyberForum</div>
-      <ul>
-        <li><a href="home.html">Ana Sayfa</a></li>
-        <li><a href="search.html">Arama</a></li>
-        <li><a href="home.html">Son Gönderiler</a></li>
-        <li><a href="post.html">Gönderiler</a></li>
-      </ul>
-      <a href="register.html" class="cta">Kayıt Ol</a>
-    </nav>
+    <header>
+      <h1>CyberForum</h1>
+      <nav>
+        <a href="index.html">Ana Sayfa</a>
+        <a href="home.html">Son Gönderiler</a>
+        <a href="search.html">Arama</a>
+        <a href="register.html" class="cta">Kayıt Ol</a>
+      </nav>
+    </header>
+
     <div class="form-container">
-      <h2>CyberForum - Kayıt Ol</h2>
+      <h2>Yeni Gönderi Oluştur</h2>
       <form>
-        <input type="text" placeholder="Ad Soyad" required />
-        <input type="email" placeholder="E-posta" required />
-        <input type="password" placeholder="Şifre" required />
-        <input type="password" placeholder="Şifre Onayı" required />
-        <button type="submit">Kayıt Ol</button>
+        <label for="post-title">Gönderi Başlığı</label>
+        <input
+          type="text"
+          id="post-title"
+          placeholder="Başlığınızı yazın"
+          required
+        />
+
+        <label for="category">Kategori Seçin</label>
+        <select id="category" required>
+          <option value="" disabled selected>Kategori seçin</option>
+          <option value="teknoloji">Teknoloji</option>
+          <option value="oyun">Oyun</option>
+          <option value="bilim-kurgu">Bilim Kurgu</option>
+          <option value="genel">Genel</option>
+        </select>
+
+        <label for="content">Gönderi İçeriği</label>
+        <textarea
+          id="content"
+          placeholder="İçeriğinizi buraya yazın..."
+          required
+        ></textarea>
+
+        <button type="submit">Gönder</button>
       </form>
-      <p>Hesabınız var mı? <a href="index.html">Giriş Yap</a></p>
     </div>
+
     <footer>
       <div class="logo">CyberForum</div>
       <p>&copy; 2024 CyberForum. Tüm hakları saklıdır.</p>
@@ -53,6 +71,7 @@
         <a href="terms.html">Kullanım Koşulları</a>
       </p>
     </footer>
+
     <script
       src="https://kit.fontawesome.com/a076d05399.js"
       crossorigin="anonymous"
