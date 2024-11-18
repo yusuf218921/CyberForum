@@ -1,0 +1,107 @@
+.search-container {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  color: #e4e4e4;
+}
+
+.search-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-bar input[type="text"] {
+  flex: 1;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background: #1e1e1e;
+  color: #e4e4e4;
+  font-size: 14px;
+}
+
+.search-bar select {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background: #1e1e1e;
+  color: #e4e4e4;
+  font-size: 14px;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  background: linear-gradient(90deg, #ff4d6d, #f9c802);
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.search-bar button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+}
+
+.search-results {
+  margin-top: 20px;
+}
+
+.search-results .result-card {
+  background: rgba(30, 30, 30, 0.9);
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+  color: #e4e4e4;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.search-results .result-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+}
+
+.result-card h3 {
+  margin: 0;
+  color: #00ffc6;
+}
+
+.result-card p {
+  font-size: 14px;
+  color: #aaa;
+  margin: 10px 0;
+}
+
+.result-card .details {
+  font-size: 12px;
+  color: #666;
+}
+
+.result-card .button {
+  display: inline-block;
+  padding: 8px 15px;
+  background: linear-gradient(90deg, #ff4d6d, #f9c802);
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.result-card .button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+}

@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(120deg, #0f0c29, #302b63, #24243e);
+  color: #e4e4e4;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #00ffc6;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ff4d6d;
+}
+
+header {
+  background: rgba(0, 0, 0, 0.8);
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+header nav a {
+  margin: 0 15px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background: linear-gradient(90deg, #ff4d6d, #f9c802);
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+}
