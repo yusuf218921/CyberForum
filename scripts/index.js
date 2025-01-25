@@ -1,6 +1,24 @@
 document.addEventListener("DOMContentLoaded", async () => {
   const usersKey = "users";
   const seedFile = "./seed/users.seed.json";
+  const categoriesKey = "categories";
+  const seedCategoriesFile = "./seed/categories.seed.json";
+  const initializeCategories = async () => {
+    if (!localStorage.getItem(categoriesKey)) {
+      try {
+        const response = await fetch(seedCategoriesFile);
+        if (!response.ok) throw new Error("Kategori verileri yüklenemedi.");
+        const categoriesData = await response.json();
+        localStorage.setItem(categoriesKey, JSON.stringify(categoriesData));
+        console.log("Kategoriler başarıyla localStorage'a eklendi.");
+      } catch (error) {
+        console.error("Kategori verileri yüklenirken hata oluştu:", error);
+      }
+    } else {
+      console.log("Kategoriler zaten localStorage'da mevcut.");
+    }
+  };
+  await initializeCategories();
   const initializeUsers = async () => {
     if (!localStorage.getItem(usersKey)) {
       try {
