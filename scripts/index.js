@@ -1,8 +1,6 @@
 document.addEventListener("DOMContentLoaded", async () => {
   const usersKey = "users";
   const seedFile = "./seed/users.seed.json";
-
-  localStorage.clear();
   const initializeUsers = async () => {
     if (!localStorage.getItem(usersKey)) {
       try {
@@ -15,14 +13,12 @@ document.addEventListener("DOMContentLoaded", async () => {
       }
     }
   };
-
   await initializeUsers();
   const currentUser = JSON.parse(sessionStorage.getItem("currentUser"));
   if (currentUser) {
     window.location.href = "home.html";
     return;
   }
-
   const formContainer = document.querySelector(".form-container");
   const usernameInput = document.querySelector(
     'input[placeholder="Kullanıcı Adı"]'
