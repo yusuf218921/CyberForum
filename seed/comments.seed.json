@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "userId": 2,
+    "postId": 1,
+    "comment": "Çok faydalı bir yazı olmuş, teşekkürler!",
+    "date": "2025-01-24T12:30:00Z"
+  },
+  {
+    "id": 2,
+    "userId": 1,
+    "postId": 1,
+    "comment": "Yapay zeka konusunda farklı bir bakış açısı sunmuşsunuz.",
+    "date": "2025-01-24T13:00:00Z"
+  },
+  {
+    "id": 3,
+    "userId": 1,
+    "postId": 1,
+    "comment": "Bu konuda daha fazla yazı bekliyoruz!",
+    "date": "2025-01-24T14:00:00Z"
+  },
+  {
+    "id": 4,
+    "userId": 1,
+    "postId": 2,
+    "comment": "5G teknolojisi hakkında yeni bilgiler öğrenmek güzeldi.",
+    "date": "2025-01-23T16:00:00Z"
+  },
+  {
+    "id": 5,
+    "userId": 2,
+    "postId": 2,
+    "comment": "5G'nin sağlık üzerindeki etkileri de tartışılmalı.",
+    "date": "2025-01-23T16:30:00Z"
+  },
+  {
+    "id": 6,
+    "userId": 1,
+    "postId": 2,
+    "comment": "Bu yazıyı arkadaşlarımla paylaştım.",
+    "date": "2025-01-23T17:00:00Z"
+  },
+  {
+    "id": 7,
+    "userId": 2,
+    "postId": 3,
+    "comment": "Mars'ta yaşam fikri gerçekten heyecan verici.",
+    "date": "2025-01-22T11:00:00Z"
+  },
+  {
+    "id": 8,
+    "userId": 1,
+    "postId": 3,
+    "comment": "Bilim kurgu yazarlarının bu konuda nasıl ilham verdiğini çok iyi anlatmışsınız.",
+    "date": "2025-01-22T11:30:00Z"
+  },
+  {
+    "id": 9,
+    "userId": 2,
+    "postId": 3,
+    "comment": "Daha fazla detay eklenirse harika olur.",
+    "date": "2025-01-22T12:00:00Z"
+  },
+  {
+    "id": 10,
+    "userId": 1,
+    "postId": 4,
+    "comment": "Zaman yolculuğu gerçek olursa hayat ne kadar ilginç olurdu!",
+    "date": "2025-01-21T15:00:00Z"
+  },
+  {
+    "id": 11,
+    "userId": 2,
+    "postId": 4,
+    "comment": "Görelilik teorisi bu konuda çok ilginç bilgiler sunuyor.",
+    "date": "2025-01-21T15:30:00Z"
+  },
+  {
+    "id": 12,
+    "userId": 1,
+    "postId": 4,
+    "comment": "Bu yazıyı çok beğendim, elinize sağlık.",
+    "date": "2025-01-21T16:00:00Z"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "categoryId": 1,
+    "userId": 1,
+    "title": "Yapay Zekanın Günümüzdeki Kullanımları",
+    "content": "Yapay zeka birçok sektörde devrim yaratmaya devam ediyor. Özellikle otomasyon, sağlık ve eğitim alanlarında yapılan yatırımlar geleceği şekillendiriyor.",
+    "date": "2025-01-24T12:00:00Z",
+    "commentCount": 3
+  },
+  {
+    "id": 2,
+    "categoryId": 1,
+    "userId": 2,
+    "title": "5G Teknolojisinin Etkileri",
+    "content": "5G teknolojisi ile hayatımız nasıl değişiyor? Daha hızlı internet, akıllı şehirler ve uzaktan çalışma için sunduğu olanaklarla 5G hayatımızın merkezinde.",
+    "date": "2025-01-23T15:30:00Z",
+    "commentCount": 3
+  },
+  {
+    "id": 3,
+    "categoryId": 2,
+    "userId": 1,
+    "title": "Uzay Kolonileri Bilim Kurgu mu Gerçek mi?",
+    "content": "Mars'ta koloni kurma projeleri hızlanıyor. Peki bu fikirler bilim kurgu dünyasından mı ilham alıyor yoksa yakın gelecekte gerçek mi olacak?",
+    "date": "2025-01-22T10:15:00Z",
+    "commentCount": 3
+  },
+  {
+    "id": 4,
+    "categoryId": 2,
+    "userId": 2,
+    "title": "Zaman Yolculuğu: Bilimsel Olasılık",
+    "content": "Bilim kurgu filmlerinde sıkça işlenen zaman yolculuğu, fiziksel olarak mümkün mü? Genel görelilik teorisi bu konuda bize ne söylüyor?",
+    "date": "2025-01-21T14:45:00Z",
+    "commentCount": 3
+  },
+  {
+    "id": 5,
+    "categoryId": 3,
+    "userId": 1,
+    "title": "Yeni Nesil Oyun Motorları",
+    "content": "Unreal Engine 5 gibi oyun motorları, gerçekçi grafikler ve dinamik oynanış sunarak oyun sektörüne yön veriyor.",
+    "date": "2025-01-20T16:00:00Z",
+    "commentCount": 0
+  },
+  {
+    "id": 6,
+    "categoryId": 3,
+    "userId": 2,
+    "title": "E-Sporların Yükselişi",
+    "content": "E-spor, dünya genelinde milyarlarca dolarlık bir sektör haline geldi. Oyunlar artık yalnızca eğlence değil, aynı zamanda bir kariyer fırsatı sunuyor.",
+    "date": "2025-01-19T11:20:00Z",
+    "commentCount": 0
+  },
+  {
+    "id": 7,
+    "categoryId": 4,
+    "userId": 1,
+    "title": "Günlük Hayatta Zaman Yönetimi",
+    "content": "Zamanınızı daha verimli kullanmak için hangi teknikleri uygulamalısınız? Pomodoro yöntemi ve diğer pratik öneriler burada.",
+    "date": "2025-01-18T09:00:00Z",
+    "commentCount": 0
+  },
+  {
+    "id": 8,
+    "categoryId": 4,
+    "userId": 2,
+    "title": "Stres Yönetimi için 5 İpucu",
+    "content": "Modern yaşamın kaçınılmaz bir parçası olan stresle başa çıkmanın yollarını öğrenin. Meditasyon, egzersiz ve daha fazlası bu yazıda.",
+    "date": "2025-01-17T13:50:00Z",
+    "commentCount": 0
+  }
+]

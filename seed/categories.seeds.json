@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "categoryName": "Teknoloji"
+  },
+  {
+    "id": 2,
+    "categoryName": "Bilim Kurgu"
+  },
+  {
+    "id": 3,
+    "categoryName": "Oyun"
+  },
+  {
+    "id": 3,
+    "categoryName": "Genel"
+  }
+]

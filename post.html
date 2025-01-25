@@ -8,76 +8,49 @@
     <link rel="stylesheet" href="./styles/post.css" />
     <link rel="stylesheet" href="./styles/footer.css" />
     <link rel="stylesheet" href="./styles/navbar.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <nav>
-      <div class="logo">CyberForum</div>
-      <ul>
-        <li><a href="home.html">Ana Sayfa</a></li>
-        <li><a href="search.html">Arama</a></li>
-        <li><a href="home.html">Son Gönderiler</a></li>
-        <li><a href="post.html">Gönderiler</a></li>
-      </ul>
-      <a href="register.html" class="cta">Kayıt Ol</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand logo" href="#">CyberForum</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" href="home.html">Ana Sayfa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="search.html">Arama</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="home.html">Son Gönderiler</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="post.html">Gönderiler</a>
+            </li>
+          </ul>
+          <div id="user-section">
+            <a href="register.html" class="btn btn-gradient cta">Kayıt Ol</a>
+          </div>
+        </div>
+      </div>
     </nav>
 
-    <div class="post-container">
-      <h2 class="post-title">Bilim Kurguda Yapay Zekanın Rolü</h2>
-      <p class="post-details">
-        Kategori: Bilim Kurgu • Gönderi Tarihi: 15.02.2024 • 45 Yorum
-      </p>
-
-      <div class="post-content">
-        Bilim kurgu eserlerinde yapay zeka (AI), insanlık ile makineler
-        arasındaki ilişkiyi keşfetmek için bir araç olarak kullanılıyor. Isaac
-        Asimov’un “Robot Serisi”nden tutun da, modern sinemanın başyapıtlarından
-        “Blade Runner” ve “Ex Machina”ya kadar, yapay zeka konsepti hem
-        teknolojik ilerlemelerin bir yansıması hem de etik bir tartışma konusu
-        olarak karşımıza çıkıyor. Peki, bu kadar önemli bir temanın ardında ne
-        yatıyor? Yapay zeka, insanlığın sınırlarını zorlayarak gelecekte ne gibi
-        etik ve sosyal sorumluluklar doğurabilir? Bu konu üzerine fikirlerinizi
-        paylaşın!
-      </div>
-
-      <h3>Yorumlar</h3>
-
-      <div class="comment-card">
-        <div class="comment-user">TechGuru45</div>
-        <div class="comment-date">15.02.2024, 14:30</div>
-        <div class="comment-text">
-          Yapay zekanın bilim kurgudaki yeri gerçekten büyüleyici. Özellikle
-          Asimov’un "Üç Robot Yasası" etik sorumluluklar üzerine düşünmek için
-          mükemmel bir araç. Ancak günümüz teknolojisiyle ne kadar paralellik
-          gösteriyor?
-        </div>
-      </div>
-
-      <div class="comment-card">
-        <div class="comment-user">SciFiFanatic</div>
-        <div class="comment-date">15.02.2024, 15:10</div>
-        <div class="comment-text">
-          Bence en ilginç yapay zeka tasviri "Blade Runner" filminde. İnsan ve
-          android arasındaki farklar gerçekten düşündürücü. Ama etik kurallar
-          belirlenmezse işler karışabilir.
-        </div>
-      </div>
-
-      <div class="comment-card">
-        <div class="comment-user">AI_Future</div>
-        <div class="comment-date">15.02.2024, 16:45</div>
-        <div class="comment-text">
-          Çok güzel bir konu! Yapay zeka sadece bilim kurgu değil, gerçek hayat
-          için de geleceğin anahtarlarından biri. Asimov’un yasaları günümüz
-          yapay zekası için uyarlanabilir mi dersiniz?
-        </div>
-      </div>
-
-      <div class="add-comment">
-        <h4>Yorum Yaz</h4>
-        <textarea placeholder="Yorumunuzu buraya yazın..."></textarea>
-        <button class="button">Gönder</button>
-      </div>
-    </div>
+    <div class="post-container"></div>
 
     <footer>
       <div class="logo">CyberForum</div>
@@ -105,5 +78,8 @@
       src="https://kit.fontawesome.com/a076d05399.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./scripts/navbar.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./scripts/post-detail.js"></script>
   </body>
 </html>

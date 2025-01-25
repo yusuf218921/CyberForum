@@ -8,73 +8,49 @@
     <link rel="stylesheet" href="./styles/home.css" />
     <link rel="stylesheet" href="./styles/footer.css" />
     <link rel="stylesheet" href="./styles/navbar.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <nav>
-      <div class="logo">CyberForum</div>
-      <ul>
-        <li><a href="home.html">Ana Sayfa</a></li>
-        <li><a href="search.html">Arama</a></li>
-        <li><a href="home.html">Son Gönderiler</a></li>
-        <li><a href="post.html">Gönderiler</a></li>
-      </ul>
-      <a href="register.html" class="cta">Kayıt Ol</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand logo" href="#">CyberForum</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" href="home.html">Ana Sayfa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="search.html">Arama</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="home.html">Son Gönderiler</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="post.html">Gönderiler</a>
+            </li>
+          </ul>
+          <div id="user-section">
+            <a href="register.html" class="btn btn-gradient cta">Kayıt Ol</a>
+          </div>
+        </div>
+      </div>
     </nav>
 
-    <div class="container">
-      <div class="create-post-container">
-        <a href="add-post.html" class="button">Gönderi Oluştur</a>
-      </div>
-
-      <h2 class="header-title">Son Gönderiler</h2>
-
-      <div class="post-card">
-        <h3>Yapay Zeka ile Oyun Geliştirme</h3>
-        <p>
-          Yapay zeka teknolojileri, oyun geliştiriciler için yeni bir çağ
-          başlatıyor. Unreal Engine ve Unity gibi platformlarla uyumlu çalışan
-          AI araçları sayesinde oyun tasarımında devrim niteliğinde adımlar
-          atılıyor.
-        </p>
-        <p class="details">Kategori: Teknoloji • 45 Yorum • 15.02.2024</p>
-        <a href="post.html" class="button">Gönderiye Git</a>
-      </div>
-
-      <div class="post-card">
-        <h3>Cyberpunk 2077 Phantom Liberty DLC İncelemesi</h3>
-        <p>
-          Phantom Liberty, Cyberpunk 2077 için uzun süredir beklenen genişleme
-          paketi. Yeni hikaye, oynanış dinamikleri ve görsel efektlerle
-          oyuncuları büyülemeyi başarıyor.
-        </p>
-        <p class="details">Kategori: Oyun • 32 Yorum • 14.02.2024</p>
-        <a href="post.html" class="button">Gönderiye Git</a>
-      </div>
-
-      <div class="post-card">
-        <h3>Elon Musk’ın Yeni Neuralink Çalışmaları</h3>
-        <p>
-          Neuralink, beyin-makine arayüzü konusunda sınırları zorluyor. Yeni
-          test sonuçları insanlık için büyük bir adım olarak görülüyor. Elon
-          Musk bu teknolojinin geleceğine dair cesur açıklamalarda bulundu.
-        </p>
-        <p class="details">
-          Kategori: Bilim ve Teknoloji • 52 Yorum • 13.02.2024
-        </p>
-        <a href="post.html" class="button">Gönderiye Git</a>
-      </div>
-
-      <div class="post-card">
-        <h3>Blade Runner 2099 Dizisi Hakkında Bilmeniz Gerekenler</h3>
-        <p>
-          Amazon Prime, Blade Runner evrenine yeni bir soluk getiriyor. 2099
-          yılına odaklanan bu dizi, hem eski hayranları hem de yeni izleyicileri
-          memnun edecek detaylarla dolu.
-        </p>
-        <p class="details">Kategori: Bilim Kurgu • 28 Yorum • 12.02.2024</p>
-        <a href="post.html" class="button">Gönderiye Git</a>
-      </div>
-    </div>
+    <div class="container"></div>
 
     <footer>
       <div class="logo">CyberForum</div>
@@ -103,5 +79,8 @@
       src="https://kit.fontawesome.com/a076d05399.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./scripts/navbar.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./scripts/home.js"></script>
   </body>
 </html>

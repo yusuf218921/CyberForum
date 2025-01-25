@@ -59,3 +59,23 @@
 .form-container a:hover {
   color: #ff4d6d;
 }
+
+.alert {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.alert-success {
+  color: #ffffff;
+  background-color: #28a745;
+  border: 1px solid #218838;
+}
+
+.alert-danger {
+  color: #ffffff;
+  background-color: #dc3545;
+  border: 1px solid #c82333;
+}
